@@ -50,12 +50,12 @@ loginForm.onsubmit = (e) => {
     const adminFound = admin.find(admin => admin.username === username && admin.password === password)
 
     if (adminFound) {
-        window.location.href = 'admin.html';
+        window.location.href = '../docs/admin.html';
         logedAdmin = adminFound
         localStorage.setItem('logedAdmin', JSON.stringify(logedAdmin))
 
     } else if (userFound) {
-        window.location.href = 'index.html';
+        window.location.href = '../index.html';
         logedUser = userFound
         localStorage.setItem('logedUser', JSON.stringify(logedUser))
 
