@@ -12,7 +12,7 @@ body{
     body{
         background-image: linear-gradient(#4460847c ,rgba(255, 255, 255, 0.2)), url(https://images.unsplash.com/photo-1537274942065-eda9d00a6293?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1350&q=80);
         background-repeat: no-repeat, no-repeat; 
-        background-size: 100vw 100vh, 100vw 100vh;
+        background-size: 100% 100%, 100% 100%;
         min-height: 100vh;
         max-height: 100vh;
         display: flex;
@@ -21,13 +21,14 @@ body{
 }
 
 main{
-    padding-top: 10vh;
+    padding-top: 2%;
 }
 
 #loginArea{
 background-color: #55555579;
 color: #FFFFFF;
-width: 60vw;
+width: 60vh;
+max-width: 100%;
 }
 
 .btn-log{
@@ -60,6 +61,7 @@ footer{
   left: 0;
   bottom: 0;
   width: 100%;
+  max-height: 10%;
  }
  
  @media only screen and (max-width: 768px) {
